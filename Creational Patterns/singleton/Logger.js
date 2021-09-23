@@ -24,4 +24,11 @@ class Singleton {
   }
 }
 
+//singletons can implemented in node.js
+//by module exporting a instance of the class.
+//the instance will be cached into memory and
+//node will provide the same instance to other files
+//importing the module.
+//i.e module.exports= new Logger()
+
 module.exports = Singleton;
